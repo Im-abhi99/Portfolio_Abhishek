@@ -1,0 +1,2 @@
+﻿license: Demo
+link: https://www.fontspace.com/sphere-fez-font-f73077
