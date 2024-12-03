@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css external file -->
+  <link rel="stylesheet" href="./style/style.css">
+  <!-- aos local external file -->
+  <link rel="stylesheet" href="./style/Aos/aos.css">
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- aos link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="./img/logo/Artboard 1@3x.png" type="image/x-icon">
+
+  <title>Portfolio/Abhishek</title>
+</head>
+
+<body>
+  <!-- cursor properties -->
+  <div class="inner-cursor" id="cursorin"></div>
+  <div class="outer-cursor" id="cursorout"></div>
+  <!-- cursor properties -->
+
+  <!-- Cover starts -->
+
+  <div class="cover container-fluid h-auto">
+    <!-- background  -->
+
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <!-- background ends -->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg " data-aos="fade-down">
+        <div class="container-fluid d-flex flex-wrap ">
+          <a href="/"
+            class="d-flex align-items-center mb-3 mb-lg-0 me-lg-0  me-auto link-body-emphasis text-decoration-none">
+            <span class="fs-4"><img class="img-fluid ms-5 mt-2" src="./img/logo/logo.png" alt=""
+                width="50px"></span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon">
+              <svg Click to viewBox="0 0 170 90" width="40" height="40">
+                <rect width="80" height="15" fill="#6fffe9" rx="0"></rect>
+                <rect y="30" width="80" height="15" fill="#6fffe9" rx="0"></rect>
+                <rect y="60" width="80" height="15" fill="#6fffe9" rx="0"></rect>
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="nav ">
+              <li class="nav-item"><a href="#" class="nav-link  px-2 " onmouseover="mousein()" onmouseout="mouseout()"
+                  aria-current="page">Home</a>
+              </li>
+              <li class="nav-item"><a href="#about" class="nav-link  px-2" onmouseover="mousein()"
+                  onmouseout="mouseout()">About</a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link  px-2" onmouseover="mousein()"
+                  onmouseout="mouseout()">Portfolio</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link  px-2" onmouseover="mousein()"
+                  onmouseout="mouseout()">Services</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link  px-2" onmouseover="mousein()"
+                  onmouseout="mouseout()">Contact</a></li>
+              <li class="nav-item d-flex"><a href="#" download="Resume\Resume.pdf"><button type="button" class="btn mt-1 " onmouseover="mousein()"
+                    onmouseout="mouseout()">Download CV <i class="fa fa-cloud-download fa-beat "></i></button></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- cover section starts here -->
+    <div class="row">
+      <div class="social z-2 col-lg-1">
+        <ul>
+          <li><a href="https://twitter.com/Abhishiek99">Twitter <i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="https://github.com/Im-abhi99">Github <i class="fa-brands fa-github "></i></a></li>
+          <li><a href="https://www.linkedin.com/in/abhishek-kumar-269262222/">Linkedin <i
+                class="fa-brands fa-linkedin "></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="name  ms-lg-5 pt-lg-0 mt-lg-0 col-lg-5" data-aos="fade-zoom-in-down">
+        <!-- text animation  -->
+        <div class="container">
+          <h2 class="fs-3 hello ">Hello, I'm </h2>
+          <h2 class="fs-1  name">Abhishiek Kumar </h2>
+        </div>
+        <div class="me-lg-5" id=flip>
+          <div>
+            <div class="display-1 p-lg-1">Developer</div>
+          </div>
+          <div>
+            <div class="display-lg-1 p-lg-1">Designer</div>
+          </div>
+          <div>
+            <div class="display-1 p-lg-2 ">Coder</div>
+          </div>
+        </div>
+        <div class="world text rounded p-lg-1 fs-6 fs-lg-3 p-0 w-50 ">Welcome to my World
+        </div>
+
+        <!-- contact icon -->
+        <div class="social-links ms-lg-1 mt-lg-5 p-lg-5 text-center">
+          <div id="number" class="social-btn flex-center">
+            <a href="tel:+91 9347956367">
+              <i class="text-center fa-xl fa-solid fa-phone"></a></i><span class="span2">9347956763</span>
+          </div>
+          <div id="mail" class="social-btn flex-center text-center">
+            <a href="mailto:itsabhishekkmr@gmail.com"> <i
+                class=" text-center fa-2xl fa-solid fa-envelope pt-lg-3 pb-lg-3"></i> </a><span
+              class="span1">Itsabhishekkmr@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="img mt-lg-5 z-1 col-lg-6">
+        <img class="img-fluid rounded mt-lg-5  mx-auto" src="img\1679395373629.jpg" alt="" data-aos="fade-down-left">
+        <!-- svg starts here -->
+        <svg class="svg  ms-auto me-auto" xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+          xmlns:xlink="http://www.w3.org/1999/xlink" Click to viewBox="0 0 500 500" data-aos="zoom-in">
+          <title>Circular Text Path</title>
+          <defs>
+            <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+              transform="rotate(12,250,250)" />
+          </defs>
+          <g class="textcircle">
+            <text textLength="940">
+              <textPath xlink:href="#textcircle" aria-label="CSS & SVG are awesome" textLength="940">Ui UX Developer
+                &amp; Designer |&#160;
+              </textPath>
+            </text>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!-- cover section  ends here -->
+
+    <!-- section 2 starts here -->
+    <div class="pg-2 container" id="about">
+      <h1 class="mt-lg-4 mb-lg-2 text-center heading fs-1" data-aos="fade-up">About me</h1>
+
+      <div class="pg-sec container mx-auto w-100 h-auto ">
+        <div class="col-lg-4 " data-aos="fade-zoom-in-down">
+          <img class="img-fluid z-1 my-auto w-auto  h-auto  p-lg-5 rounded-circle " src="img\1679395373629.jpg" alt="">
+        </div>
+        <div class="container col-lg-8 " data-aos="fade-down-left">
+          <div class="pal ">
+            <h1 class="fs-4">Hey there</h1>
+          </div>
+          <p class="text  text-justify">I have passion for creating
+            user-friendly interfaces & enhence user experience. I am a Certified UI UX developer from Tech Mahindra
+            Foundation. <br> I am also interested in staying up-to-date with the latest trends in UI/UX
+            Development technologies and Design</p>
+          <a href="" download="Resume\Resume.pdf"><button class="shadow__btn fs-6 mt-lg-0 ml-lg-0 z-2 btn btn-success">FORMAL RESUME</button></a>
+          <a href="" download="Resume\infographicrResume (1)1.pdf"><button class="shadow__btn  m-lg-5 z-2  btn btn-success">INFOGRAPHIC RESUME</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- skill section starts here -->
+    <div class="skill container ">
+      <div class="row d-grid">
+        <h1 class="head text-center mt-lg-5 mb-lg-5 heading fs-1" data-aos="fade-down">My Skills</h1>
+        <video class=" w-auto z-5 h-auto mx-auto" id="myVideo"autoplay muted loop data-aos="fade-up"
+          data-aos-duration="3000">
+          <source src="./img/animation/animation.mp4" type="video/mp4 ">
+        </video>
+      </div>
+    </div>
+    <!-- skill section ends here -->
+
+    <!-- contact section starts here -->
+
+    <div class="container contact1 ">
+      <h3 class="fs-3 text-center" data-aos="fade-right">Interested in <span> collaborating </span>with me?</h3>
+      <p class="text-center" data-aos="fade-left">I'm always open to discuss about design and development opportunities.
+      </p>
+      <!-- The Button -->
+
+      <!-- Button trigger modal -->
+      <div class="text-center">
+        <button type="button" class="btn mt-lg-5 " id="btn1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Contact me
+        </button>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg bg-black">
+          <div class="modal-content bg-transparent">
+            <div class="modal-header bg-transparent">
+              <h2 class="name" id="lable">Contact me</h2>
+              <button type="button" class="btn-close btn-close-white " data-bs-dismiss="modal"
+                aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="modal-body1 row">
+
+                <!-- Contactee details -->
+                <div class="col-md-4">
+                  <p>Email: Itsabhishekkmr@gmail.com</p>
+                  <p>Phone: +91 9347656763</p>
+                </div>
+
+                <!-- Contact form -->
+                <div class="col-md-8">
+                  <form action="https://formspree.io/f/mknayylo" method="POST" id="contactForm">
+                    <div class="form-group">
+                      <label for="name">Name:</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message:</label>
+                      <textarea class="form-control" id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-lg-5">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services start here -->
+    <div class="service container" id="services">
+      <h1 class="text-center pt-lg-5 pb-lg-5  heading fs-1" data-aos="fade-up">Services</h1>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 mt-3">
+        <div class="col">
+
+          <!-- Services cards -->
+          <div class="card bg-transparent w-100 " data-aos="zoom-in-right">
+            <img class="img-fluid w-auto h-auto mx-auto h-auto rounded-circle" src="img\1x\img (7).png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">CODING</h5>
+              <p class="card-text text-center fs-6">I am have knowledge in Web Development, I know coding languages such
+                as
+                HTML, CSS, JavaScript & ReactJS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-transparent  w-100" data-aos="zoom-in-up">
+            <img class="img-fluid  mx-auto h-auto  rounded-circle" src="img\1x\img (4).png" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">WEB DESIGNING</h5>
+              <p class="card-text text-center">I can Create attractive Web layout and reponsive web designs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+          <div class="card bg-transparent  w-100" data-aos="zoom-in-left">
+            <img class="img-fluid  mx-auto h-auto  rounded-circle" src="img\1x\img (3).png" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">UI / UX</h5>
+              <p class="card-text text-center">I create user-friendly designs for products and services.</p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3" data-aos="zoom-in-right">
+        <div class="col">
+          <div class="card bg-transparent  w-100">
+            <img class="img-fluid  mx-auto h-auto  rounded-circle" src="img\1x\img (1).png" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">LOGO DESIGNING</h5>
+              <p class="card-text text-center">I create visual representation of a brand or company which are unique
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card bg-transparent pb-lg-5  w-100" data-aos="zoom-in-up">
+            <img class="img-fluid  mx-auto h-auto  rounded-circle" src="img\1x\img (5).png" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">WIREFRAMING & PROTOTYPING</h5>
+              <p class="card-text text-center">I create low fidelity and high fidelity wireframing, I also design web
+                and mobile application prototypes with adobe XD </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-transparent  w-100" data-aos="zoom-in-left">
+            <img class="img-fluid  mx-auto h-auto  rounded-circle" src="img\1x\img (6).png" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">GRAPHIC DESIGN</h5>
+              <p class="card-text text-center">I have good knowledge in Adobe Illustrator and Photoshop, I can create
+                stationery, branding, logos etc for products and services</p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio container starts here -->
+    <section class="container-fluid portfolio " id="portfolio">
+      <img class="decor-none position-absolute top-50 start-0 " src="img/decor/portfolio1.png" alt="">
+      <h1 data-aos="fade-up" class="text-center  mt-lg-2 mb-lg-3 heading fs-1" id="text"
+        data-aos="fade-down">My Portfolio</h1>
+      <h1 data-aos="fade-up" class="text-center  fs-3" id="text2">Everything Begin with <span>Idea</span>.
+      </h1>
+
+
+      <div data-aos="fade-up" class="worksnav">
+        <div class="tabs">
+          <input onclick="filterImages('all')" type="radio" id="radio-1" name="tabs" checked="">
+          <label onmouseover="mousein()" onmouseout="mouseout()" class="tab fs-4" for="radio-1">All</label>
+          <input onclick="filterImages('illustrator')" type="radio" id="radio-2" name="tabs">
+          <label onmouseover="mousein()" onmouseout="mouseout()" class="tab fs-4" for="radio-2">Adobe Illustrator</label>
+          <input onclick="filterImages('photoshop')" type="radio" id="radio-3" name="tabs">
+          <label onmouseover="mousein()" onmouseout="mouseout()" class="tab fs-4" for="radio-3">Adobe Photoshop</label>
+          <input onclick="filterImages('adobeXD')" type="radio" id="radio-4" name="tabs">
+          <label onmouseover="mousein()" onmouseout="mouseout()" class="tab fs-4" for="radio-4">AdobeXD</label>
+          <input onclick="filterImages('coding')" type="radio" id="radio-5" name="tabs">
+          <label onmouseover="mousein()" onmouseout="mouseout()" class="tab fs-4" for="radio-5">Coding</label>
+          <span class="glider"></span>
+        </div>
+      </div>
+      <!-- categories section ends here -->
+
+      <!-- gallery section start here -->
+
+      <div class="container mt-4">
+        <div class="gallery w-100">
+
+          <div class="gallery-item" data-category="illustrator" data-aos="zoom-in-down" data-bs-target="#item-1"
+            data-bs-toggle="modal">
+            <img class="gallery-image w-100 img-fluid h-100 m-0 p-0 " src="./img/mockups/imgassets (1).jpg"
+              alt="item-1">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="illustrator" data-aos="zoom-in-down" data-aos-delay="50"
+            data-bs-target="#item-2" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (10).jpg" alt="item-2">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="illustrator" data-aos="zoom-in-down" data-aos-delay="100"
+            data-bs-target="#item-3" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (13).jpg" alt="item-3">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="illustrator" data-aos="zoom-in-down" data-aos-delay="150"
+            data-bs-target="#item-4" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (12).jpg" alt="item-4">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="illustrator" data-aos="zoom-in-down" data-aos-delay="200"
+            data-bs-target="#item-5" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (2).jpg" alt="item-5">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="illustrator" data-aos="zoom-in-down" data-aos-delay="250"
+            data-bs-target="#item-6" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (16).png" alt="item-6">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="adobeXD" data-aos="zoom-in-down" data-aos-delay="300"
+            data-bs-target="#item-7" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (6).jpg" alt="item-7">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="illustrator" data-aos="zoom-in-down" data-aos-delay="350"
+            data-bs-target="#item-8" data-bs-toggle="modal">
+            <img class="gallery-image" src="img\portfolio\Artboard 1 (1).png" alt="item-8">
+            <a class="e">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="illustrator" data-aos="zoom-in-down" data-aos-delay="400"
+            data-bs-target="#item-9" data-bs-toggle="modal">
+            <img class="gallery-image" src="img\portfolio\Artboard 7.png" alt="item-9">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="photoshop" data-aos="zoom-in-down" data-aos-delay="450"
+            data-bs-target="#item-10" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (3).jpg" alt="item-10">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="photoshop" data-aos="zoom-in-down" data-aos-delay="500"
+            data-bs-target="#item-11" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (4).jpg" alt="item-11">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="photoshop" data-aos="zoom-in-down" data-aos-delay="550"
+            data-bs-target="#item-12" data-bs-toggle="modal">
+            <img class="gallery-image" src="./img/mockups/imgassets (5).jpg" alt="item-12">
+            <a class="">Click to view</a>
+          </div>
+
+
+          <div class="gallery-item" data-category="coding" data-aos="zoom-in-down" data-aos-delay="650"
+            onclick="window.open('https://oggzzyel6ab5x2dd7uzzdg.on.drv.tw/Project/new%20project/html/Index.html');">
+            <img class="gallery-image" src="img\mockups\1195487_OT12YY1.jpg" alt="item-13">
+            <a class="">Click to view</a>
+          </div>
+
+          <div class="gallery-item" data-category="coding" data-aos="zoom-in-down" data-aos-delay="700"
+            onclick="window.open('https://oggzzyel6ab5x2dd7uzzdg.on.drv.tw/Project/Project1.1/Index.html');">
+            <img class="gallery-image" src="img\mockups\imgassets (7).jpg" alt="item-16">
+            <a class="">Click to view</a>
+          </div>
+          <div class="gallery-item" data-category="coding" data-aos="zoom-in-down" data-aos-delay="750"
+          onclick="window.open('https://abhishek99.000webhostapp.com/Fino/Index.html');">
+          <img class="gallery-image" src="img\mockups\imgassets (8).jpg" alt="item-15">
+          <a class="">Click to view</a>
+        </div>
+
+
+
+        </div>
+      </div>
+
+      <!--- image toggle code-->
+      <div class="modal fade" id="item-1" aria-hidden="true" aria-labelledby="toogle-1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-1">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="./img/mockups/imgassets (1).jpg " alt="item-1">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-2" aria-hidden="true" aria-labelledby="toogle-2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-2">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="./img/mockups/imgassets (16).jpg" alt="item-2">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-3" aria-hidden="true" aria-labelledby="toogle-3" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-3">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="./img/mockups/imgassets (13).jpg" alt="item-3">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-4" aria-hidden="true" aria-labelledby="toogle-4" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-4">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="./img/mockups/imgassets (12).jpg" alt="item-4">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-5" aria-hidden="true" aria-labelledby="toogle-5" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-5">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="./img/mockups/imgassets (2).jpg" alt="item-5">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-6" aria-hidden="true" aria-labelledby="toogle-6" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-6">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="./img/mockups/imgassets (16).png" alt="item-6">
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div class="modal fade" id="item-7" aria-hidden="true" aria-labelledby="toogle-7" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-7">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <iframe width="300" height="600" src="https://xd.adobe.com/embed/2247160b-92a0-42e4-866e-3c697904407e-7714/" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-8" aria-hidden="true" aria-labelledby="toogle-8" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-8">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="img\portfolio\Artboard 1 (1).png" alt="item-8">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-9" aria-hidden="true" aria-labelledby="toogle-9" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-9">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="img\portfolio\Artboard 7.png" alt="item-9">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-10" aria-hidden="true" aria-labelledby="toogle-10" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-10">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="img\mockups\imgassets (3).jpg" alt="item-10">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-11" aria-hidden="true" aria-labelledby="toogle-11" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-11">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="img\mockups\imgassets (4).jpg" alt="item-11">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="item-12" aria-hidden="true" aria-labelledby="toogle-12" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="toogle-12 ">Portfolio</h1>
+              <button onmouseover="mousein()" onmouseout="mouseout()" type="button" class="btn-close"
+                data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img class="w-100" src="img\mockups\imgassets (5).jpg" alt="item-12">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--- image toggle code end-->
+
+      <!---gallery end-->
+
+
+    </section>
+    <div class="modal-body1 contact2 container mt-lg-5 ">
+
+      <h1 class="text-center heading fs-1" data-aos="fade-down">Contact Details</h1>
+      <div class="container row ">
+        <!-- Contactee details -->
+        <div class=" me-lg-5 mx-auto mt-lg-5 ms-lg-5 col" data-aos="fade-right">
+          <h5>How can I Help you?</h5>
+
+          <p>Email: Itsabhishekkmr@gmail.com</p>
+          <p>Phone: +91 9347656763</p>
+          <!-- Social media icon at footer -->
+          <div class="share mt-lg-0 pt-lg-2">
+            <button class="btn1 mt-5 me-lg-3">
+              <svg fill-rule="nonzero" height="30px" width="30px" Click to viewBox="0,0,256,256"
+                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="instagram">
+                <g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none"
+                  font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10"
+                  stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero">
+                  <g transform="scale(8,8)">
+                    <path
+                      d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+              <span class="tooltiptext1">
+                <div class="card">
+                  <i class="fa-solid fa-user fa-2xl mt-4 pt-lg-2"></i>
+                </div>
+                <div class="username">@im_abhi.rk</div>
+              </span>
+            </button>
+            <button class="btn2 mt-4  me-lg-3">
+              <svg height="30px" width="30px" Click to viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"
+                class="twitter">
+                <path
+                  d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429">
+                </path>
+              </svg>
+              <span class="tooltiptext2">
+                <div class="card">
+                  <i class="fa-solid fa-user fa-2xl mt-4 pt-lg-2"></i>
+                </div>
+                <div class="username">@Abhishiek99</div>
+              </span>
+            </button>
+            <button class="btn3 mt-3">
+              <svg height="30px" width="30px" Click to viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"
+                class="git">
+                <path
+                  d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z">
+                </path>
+              </svg>
+              <span class="tooltiptext3">
+                <div class="card">
+                  <i class="fa-solid fa-user fa-2xl mt-4 pt-lg-2"></i>
+                </div>
+                <div class="username">@Im-abhi99</div>
+              </span>
+            </button>
+          </div>
+          <!-- Social media icon at footer -->
+        </div>
+
+        <!-- Contact form -->
+        <div class=" card col-md-6 m-3 " id="contact" data-aos="fade-left">
+          <form action="https://formspree.io/f/mknayylo" method="POST" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+
+            <div class="form-group ">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group ">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" id="btn2" class="btn btn-primary mt-lg-3 mt-3 mb-3">Submit</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+    <!-- Social media icon at footer -->
+    <hr class="hr text-center">
+    <div class="fs-6 text-center text-white">
+      <i class="fa-solid fazoom-in-down"></i> 2023 <b>Rachamalla Abhishiek Kumar </b>||All Rights Reserved
+    </div>
+  </div>
+  <!-- Social media icon at footer -->
+</body>
+<!-- javascript -->
+<script src="script.js"></script>
+<!-- javascript -->
+
+<!-- aos local file -->
+<script src="./style/Aos/aos.js"></script>
+<!-- aos local file -->
+
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+
+<!--bootstrap -->
+
+
+<!-- aos iniailization -->
+<script>
+
+  AOS.init();
+</script>
+<!-- aos iniailization -->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/64523f0b4247f20fefef18eb/1gvgkci5o';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+<!--End of Tawk.to Script-->
+
+</html>
